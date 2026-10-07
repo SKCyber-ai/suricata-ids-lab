@@ -1,0 +1,41 @@
+# Suricata logs
+*.log
+eve.json
+fast.log
+stats.log
+http.log
+dns.log
+tls.log
+
+# Packet captures
+*.pcap
+*.pcapng
+
+# Suricata runtime/data
+suricata.pid
+suricata.socket
+
+# Sensitive/private files
+*.key
+*.pem
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Environment/secrets
+.env
+.env.*
+*.secret
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
